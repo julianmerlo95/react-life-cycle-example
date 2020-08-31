@@ -1,0 +1,24 @@
+.person
+  display: flex
+  margin-top: 15px
+  
+  &__card
+    width: 100%
+    background: blue
+    color: white
+    text-align: center
+    box-shadow: 2px -2px 3px black
+    transition: 0.5s
+
+  &__card:hover
+    box-shadow: 2px -2px 8px black
+    transition: 0.5s
+
+  &__card button
+    cursor: pointer
+    background: green
+    color: white
+  
+@media screen and ( max-width: 425px  )
+  .person__card
+    width: 100%
